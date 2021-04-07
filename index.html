@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior: smooth;">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <title>Landing Page</title>
+</head>
+<body class="visible" style="font-family: Georgia, 'Times New Roman', Times, sans-serif;">
+<header class="bg-info  d-flex align-items-center sticky-top">
+    <div class="container" >
+        <div class="row d-flex align-items-center position-relative justify-content-lg-between flex-xl-row flex-lg-row flex-row-reverse">
+            <div class="col-6 col-lg-2 col-xl-2 d-flex align-items-center justify-content-center  justify-content-md-start" id="top">
+                <a href="" class="nav-link d-flex d-lg-block justify-content-end justify-content-lg-start">
+                       <img class="w-50" src="image/logo.png"  alt="">
+                </a>
+            </div>
+            <div class="col-6 col-lg-8 col-xl-8 flex-md-row-reverse d-flex justify-content-lg-start justify-content-md-end">
+                <nav class="navbar navbar-expand-lg navbar-light ">
+                    <div class="container-fluid">
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#About">About</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#Contact">Contact</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#bootstrap">Why using bootstrap</a>
+                          </li>
+                         
+                        </ul>
+                        <!-- Button trigger modal -->
+                        <a href="" class="nav-link text-uppercase text-white alert-link" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Register</a>
+                      </div>
+                    </div>
+                  </nav>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- end header -->
+ 
+<section class="mt-3 mb-3" >
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-12 col-lg-6 col-md-6 col-sm-12 mb-4">
+                <h3 class="h1">
+                  Build fast
+                <small class="text-info">responsive sites with Bootstrap</small>
+                </h3>
+                <p class="text-wrap font-weight-light">
+                  Quickly design and customize responsive mobile-first sites with Bootstrap, 
+                  the world’s most popular front-end open source toolkit, featuring Sass variables and mixins,
+                   responsive grid system, 
+                  extensive prebuilt components, and powerful JavaScript plugins.
+                </p>
+              <div class="d-inline-block">
+                <a href="#" class="text-decoration-none btn-primary p-2 rounded text-uppercase alert-link">Read more</a>
+              </div>
+            </div>
+            <div class="col-12 col-lg-6 col-md-6 col-sm-12 d-lg-flex justify-content-lg-center">
+                <img src="image/home.png" class="w-100" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end intro -->
+<section class="p-4" id="About">
+    <div class="container">
+        <div class="row ">
+            <div class="col-12 col-lg-6 col-md-6 col-sm-12 d-flex align-items-center">
+                <img src="image/What-is-Bootstrap.jpg.webp" class="w-100 w-xl-75" alt="">
+            </div>
+            <div class="col-12 col-lg-6 col-md-6 col-sm-12 mb-xl-0 mb-4 p-3">
+                <h3 class="h1 text-uppercase text-info">About</h3>
+                <h4>What is Bootstrap?</h4>
+                <p class="">
+                  Bootstrap is a giant collection of handy, reusable bits of code written in HTML,
+                   CSS, and JavaScript. It’s also a frontend development framework that 
+                  enables developers and designers to quickly build fully responsive websites.
+                </p>
+                <p>
+                  Essentially, Bootstrap saves you from writing lots of CSS code, giving you more time to spend on designing webpages.
+                </p>
+                <p>
+                  It’s also FREE!
+                </p>
+                <p>
+                  It’s currently hosted on GitHub and can be downloaded easily from the official site.
+                </p>
+                <blockquote class="blockquote text-left">
+                    <footer class="blockquote-footer mt-0   ">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+                  </blockquote>
+                <div class="d-inline-block">
+                    <a href="#" class="text-decoration-none pt-2  pb-2 p-4 text-uppercase bg-secondary text-white rounded-pill">Read more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end about -->
+<section class="pt-5 pb-5" id="bootstrap">
+  <div class="container">
+      <div class="row">
+          <div class="col-12 text-center">
+              <h3 class="text-center text-uppercase">Why using boostrap</h3>
+              <p class="text-info"><u>Reasons Why You Should Use Bootstrap</u></p>
+          </div>
+      </div>
+      <div class="d-grid gap-3 p-4" style="grid-template-columns: repeat(auto-fit,minmax(250px,1fr));">
+          <div class="card">
+            <img src="image/time saving.jpg" class="w-100">
+              <h3 class="text-success text-center alert-link bg-light pt-2 pb-2">1.Time Saving</h3>
+              <div class="card-body ">
+                <p class="card-text text-justify">When you are bound to an extremely confined timeline to build a website, 
+                  web app or mobile app, you can take advantage of Bootstrap and nail your project effortlessly.
+                   It’s because of the ready-made blocks built ready for you to use them. </p>
+                   <p class="card-text text-justify">
+                    Clearly, you don’t have to start everything from scratch,
+                     and you can modify certain elements to make it unique with your inputs.
+                   </p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="image/Ease-of-use.jpg" class="w-100">
+              <h3 class="text-danger text-center alert-link bg-light pt-2 pb-2">2. Easy to Use</h3>
+              <div class="card-body ">
+                <p class="card-text text-justify">No matter whether you are an expert or a beginner in web technologies, 
+                  you can swiftly do the Bootstrap installation for yourself without any hassle. As said,
+                   though you don’t have to be an expert in web technologies (HTML, CSS, JavaScript),
+                    having basic knowledge of them don’t hurt.
+                   Below are the ways to link your HTML document with your style sheet and script file.</p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="image/Customizable.png"  class="w-100">
+              <h3 class="text-primary text-center alert-link bg-light pt-2 pb-2">3. Customizable</h3>
+              <div class="card-body ">
+                <p class="card-text text-justify">You can always tweak the CSS file if you’re not satisfied with Bootstrap’s 
+                  design template. Also, you can combine it with your existing design and make them complement
+                   each other’s functions. It is very much helpful when you want to give your website
+                   a distinct look but you don’t have enough time to learn or code custom CSS from scratch</p>
+                 
+              </div>
+            </div>
+      </div>
+      <div class="d-grid gap-3 p-4" style="grid-template-columns: repeat(auto-fit,minmax(200px,1fr));">
+        <div class="card">
+          <img src="image/browser-compatibility.jpg" class="w-100">
+            <h3 class="text-warning text-center alert-link bg-light pt-2 pb-2">4. Cross-Browser Compatibility</h3>
+            <div class="card-body ">
+              <p class="card-text text-justify">The Bootstrap team ensures the compatibility of the framework with all modern browsers 
+                versions and platforms. Also, the team claims that they don’t support proxy browsers and older browsers,
+                 but that doesn’t affect its display or functionality. </p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="image/opensource.jpeg" class="w-100">
+            <h3 class="text-secondary text-center alert-link bg-light pt-2 pb-2">5. Open Source</h3>
+            <div class="card-body ">
+              <p class="card-text text-justify">Bootstrap is an open source toolkit for developing with HTML, CSS, and JS.
+                 Quickly prototype your ideas or build your entire app with our Sass variables and mixins,
+                  responsive grid system, 
+                extensive prebuilt components, and powerful plugins built on jQuery</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="image/Huge Number of Resources.jpg" class="w-100">
+            <h3 class="text-dark text-center alert-link bg-light pt-2 pb-2">6. Huge Number of Resources and Community Support</h3>
+            <div class="card-body">
+              <p class="card-text text-justify">Bootstrap offers a lot of resources on their official website and some 
+                other websites also offer certain resources that would ease the front-end development process.
+                 Also, the official website offers incredible documentation with which creating a website has never been easier. Moreover,
+                 you get access to their templates and themes to which you can make changes.</p>
+               
+            </div>
+          </div>
+    </div>
+  </div>
+</section>
+<!-- end why boostrap -->
+<section class="pt-4 pb-4 bg-light" id="Contact">
+  <div class="container">
+      <div class="row align-items-center">
+          <div class="col-12 col-lg-6 col-md-6 col-sm-12">
+              <h3 class="text-uppercase alert-link"><i>Contact with</i>
+                  <small class="text-info ">Me</small>
+              </h3>
+              <p style="font-weight:300;">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Odit quis similique excepturi quaerat odio ex laudantium iusto totam quae mollitia voluptatum vero,
+              aliquam, necessitatibus obcaecati. Saepe ad illum vel sed.</p>
+             <blockquote class="blockquote">
+                  <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+                </blockquote>
+          </div>
+          <div class="col-12 col-lg-6 col-md-6 col-sm-12 justify-content-lg-end d-lg-flex">
+              <div class="p-3 btn-info rounded col-12 col-xl-8 m-auto">
+                  <h3 class="text-white text-center">Contact From</h3>
+                  <form action="#" class="row g-3 needs-validation" novalidate>
+                      <div class="col-12">
+                        <label for="validationCustom01" class="form-label">First name</label>
+                        <input type="text" class="form-control" id="validationCustom01" aria-describedby="inputGroupPrepend" required>
+                        <div class="invalid-feedback">
+                          Please enter a First name
+                        </div>
+                      </div>
+                      <div class="col-12">
+                        <label for="validationCustom02" class="form-label">Last name</label>
+                        <input type="text" class="form-control" id="validationCustom02"  required>
+                        <div class="invalid-feedback">
+                          Please enter a Last name
+                        </div>
+                      </div>
+                      <div class="col-12">
+                        <label for="validationCustomUsername" class="form-label">Email address</label>
+                        <div class="input-group has-validation">
+                          <span class="input-group-text" id="inputGroupPrepend">@</span>
+                          <input type="email" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+                          <div class="invalid-feedback">
+                            Please enter a Email.
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-12">
+                          <label for="validationCustomAddress" class="form-label">Address</label>
+                          <div class="input-group has-validation">
+                            <input type="text" class="form-control" id="validationCustomAddress" aria-describedby="inputGroupPrepend" required>
+                            <div class="invalid-feedback">
+                              Please enter a Address.
+                            </div>
+                          </div>
+                        </div>  
+                        <div class="col-12">
+                          <label for="validationCustomPhone" class="form-label">Number Phone</label>
+                          <div class="input-group has-validation">
+                            <input type="number" class="form-control" id="validationCustomPhone" aria-describedby="inputGroupPrepend" required>
+                            <div class="invalid-feedback">
+                              Please enter a Number Phone.
+                            </div>
+                          </div>
+                        </div> 
+                      <div class="col-12">
+                        <button class="btn btn-primary" type="submit">Send</button>
+                      </div>
+                    </form>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+<!-- end contact -->
+  <!-- <section class="p-xl-5 p-2 pt-3 pb-3" id="Member">
+      <div class="container">
+          <div class="row">
+              <h3 class="text-center h1 text-uppercase text-info">Member</h3>
+              <div class="col-12 col-lg-4 col-md-4 col-sm-12 mb-3 mb-xl-0">
+                  <div class="card">
+                      <div class="position-relative img-fluid d-lg-flex justify-content-center" alt="Responsive image">
+                          <img src="image/AC_ICON_FC_GRN_240x200.png"  class="w-100 img-thumbnail" alt="">
+                      </div>
+                      <div class="card-body">
+                          <h5 class="card-title">Member One</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="text-decoration-none btn-primary pt-1 pb-1 p-4 h5 rounded-pill">Read more</a>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-12 col-lg-4 col-md-4 col-sm-12 mb-3 mb-xl-0">
+                  <div class="card">
+                      <div class="position-relative img-fluid d-lg-flex justify-content-center" alt="Responsive image">
+                          <img src="image/pcl.png" class="w-100 img-thumbnail" alt="">
+                      </div>
+                      <div class="card-body">
+                          <h5 class="card-title">Member two</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="text-decoration-none btn-primary pt-1 pb-1 p-4 h5 rounded-pill">Read more</a>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-12 col-lg-4 col-md-4 col-sm-12 mb-3 mb-xl-0">
+                  <div class="card">
+                      <div class="position-relative img-fluid d-lg-flex justify-content-center" alt="Responsive image">
+                          <img src="image/bowling.jpg" class="w-100 img-thumbnail" alt="">
+                      </div>
+                      <div class="card-body">
+                          <h5 class="card-title">Member three</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="text-decoration-none btn-primary pt-1 pb-1 p-4 h5 rounded-pill">Read more</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section> -->
+<!-- end member -->
+
+<footer class="pt-2 pb-2 bg-dark">
+    <div class="container">
+        <a href="" class="text-decoration-none"><p class="text-center text-white m-0">@Nocopyright Landing page designer By me 2021</p></a>
+       
+    </div>
+</footer>
+<!-- end Skill -->
+  <!-- Modal -->
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">Send Mail Register</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <form action="#" class=" needs-validation" novalidate>
+                <div class="m-3">
+                    <input type="text" name="" class="form-control" placeholder="Username"  aria-describedby="inputGroupPrepend" required id="">
+                    <div class="invalid-feedback">
+                        Please enter a Username.
+                    </div>
+                </div>
+                <div class="m-3">
+                    <input type="password" name="" class="form-control" placeholder="Password"  required id="">
+                    <div class="invalid-feedback">
+                        Please enter a Password.
+                    </div>
+                </div>
+                <div class="m-3">
+                    <input type="password" name="" class="form-control" placeholder="Password Comfirm" required id="">
+                    <div class="invalid-feedback">
+                        Please enter a Password Comfirm.
+                    </div>
+                </div>
+                <div class="m-3">
+                    <input type="email" name="" class="form-control" placeholder="Email address" required id="">
+                    <div class="invalid-feedback">
+                        Please enter a Email address.
+                    </div>
+                </div>
+                <div class="m-3">
+                    <button type="submit" class="btn btn-primary form-control">Register</button>
+                </div>
+            </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" ></script>
+
+<script>
+    // Example starter JavaScript for disabling form submissions if there are invalid fields
+(function () {
+  'use strict'
+  // Fetch all the forms we want to apply custom Bootstrap validation styles to
+  var forms = document.querySelectorAll('.needs-validation')
+  // Loop over them and prevent submission
+  Array.prototype.slice.call(forms)
+    .forEach(function (form) {
+      form.addEventListener('submit', function (event) {
+        if (!form.checkValidity()) {
+          event.preventDefault()
+          event.stopPropagation()
+        }
+
+        form.classList.add('was-validated')
+      }, false)
+    })
+})()
+</script>
+</html>
